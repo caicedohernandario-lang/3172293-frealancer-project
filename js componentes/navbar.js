@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
         fetch("/views/componets/navbar.html")
                 // la respuesta la comvierte a texo plano 
-            .then(Response => Response.text())
+            .then(response => response.text())
 
                 // inserta el contenido  html dek navbar enn el contenedor correspondiente
             .then(data => {
