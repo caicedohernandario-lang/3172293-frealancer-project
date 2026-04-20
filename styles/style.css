@@ -145,3 +145,10 @@ body{
     color: var(--secondary-300);
   }
 }
+
+.navbar__link.active {
+    background-color: var(--white);
+    color: var(--primary-950);
+    font-weight: bold;
+    border-radius: o.6rem;
+}
