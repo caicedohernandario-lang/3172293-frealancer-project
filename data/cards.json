@@ -1,0 +1,23 @@
+[
+    {
+        "id": "diseno-web",
+        "title": "Diseño Web",
+        "icon1": "../assets/database(1).svg",
+        "icon2":"../assets/palette.svg",
+        "description":"Volvemos tus ideas realidad,conel mejor diseño"
+    },
+    {
+        "id": "desctopApp",
+        "title": "Diseño Web",
+        "icon1": "../assets/database(1).svg",
+        "icon2":"../assets/palette.svg",
+        "description":"Creamos aplicaciones para tu empresa"
+    },
+    {
+        "id": "iotSystem",
+        "title": "Diseño Web",
+        "icon1": "../assets/database(1).svg",
+        "icon2":"../assets/palette.svg",
+        "descripction":"Volvemos tus ideas realidad,conel mejor diseño"
+    }
+]

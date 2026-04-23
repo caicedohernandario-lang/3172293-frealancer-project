@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
 
-    <link rel="stylesheet" href="styles/style.css">
-
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/components/navbar.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    
+    <script type="module">
+        import { loadCards } from"/js componentes/componentes/card.js";
+        loadCards(".cards-container")//sin Ids muestra todas las cartas
+    </script>
 </head>
 <body>
     <header>
@@ -16,10 +22,11 @@
     </h1>
     </header>
 
-    <div class="navbar-container">
-
-    </div>
+    <div class="navbar-container"></div>
+    <div class="hero-container"></div>
+    <div class="cards-container"></div>
     
-    <script src="/js componentes/navbar.js"></script>
+    <script src="/js componentes/componentes/navbar.js"></script>
+    <script src="/js componentes/componentes/hero.js"></script>
 </body>
 </html>

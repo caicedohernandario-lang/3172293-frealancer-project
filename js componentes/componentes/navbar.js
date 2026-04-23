@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
             navLinks.forEach(link =>{
                     // Verifica si el href del enlace incluye el nombre de la pagina actual
-                if (link.getAttribute("href").includes(currentPage)) {
+                if (link.getAttribute("href")?.includes(currentPage)) {
                     
                     link.classList.add("active");
                 }
